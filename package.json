@@ -1,0 +1,20 @@
+{
+  "name": "ttmaybay-api",
+  "version": "1.0.0",
+  "description": "TTMayBay API",
+  "main": "ttmaybay.js",
+  "scripts": {
+    "start": "node ttmaybay.js",
+    "dev": "node --watch ttmaybay.js"
+  },
+  "dependencies": {
+    "axios": "^1.11.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "private": true,
+  "license": "MIT"
+}
