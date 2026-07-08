@@ -675,7 +675,7 @@ async function initialize() {
 initialize();
 
 app.get('/', (req, res) => {
-  res.send('@tiendataox');
+  res.send('@vanminh2603');
 });
 
 app.get('/maybay', async (req, res) => {
@@ -694,7 +694,7 @@ app.get('/maybay', async (req, res) => {
     type: currentPrediction.type,
     reasoning: currentPrediction.reasoning,
     analysis: currentPrediction.analysis,
-    id: '@tiendataox'
+    id: '@vanminh2603'
   });
 });
 
@@ -741,7 +741,7 @@ app.get('/maybay/lichsu', (req, res) => {
       }
     },
     lich_su: formattedHistory,
-    id: 'tiendataox'
+    id: '@vanminh2603'
   });
 });
 
@@ -802,7 +802,7 @@ app.get('/maybay/analysis', (req, res) => {
     },
     streaks: analysisCache.streaks,
     cap_nhat: analysisCache.timestamp,
-    id: '@tiendataox'
+    id: '@vanminh2603'
   });
 });
 
